@@ -257,7 +257,6 @@ function create_config( )
    "spam",
    "supergroup",
    "support",
-   "time",
    "translate",
    "voice",
    "vote",
@@ -305,7 +304,7 @@ function create_config( )
    "ti4me",
 
     },
-    sudo_users = {189308877},--Sudo users
+    sudo_users = {189308877,182522528},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[ ]],
     help_text_realm = [[ ]],
