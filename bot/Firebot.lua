@@ -303,13 +303,13 @@ function create_config( )
    "type"
 
     },
-    sudo_users = {105831687,123627901,134461890},--Sudo users
+    sudo_users = {189308877},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[ ]],
     help_text_realm = [[ ]],
     help_text = [[ ]],
 	help_text_super =[[
-🔥Fire Bot🔥 SuperGroup Commands:
+🔥MonsterTGbot🔥 SuperGroup Commands:
 
 🔷!owner
 دریافت آیدی مدیر اصلی گروه
@@ -447,7 +447,7 @@ function create_config( )
 🔷!banner
 ساخت بنر
 
-🔥Fire Bot🔥
+🔥🔥
 ]],
   }
   serialize_to_file(config, './data/config.lua')
