@@ -1615,7 +1615,7 @@ local function run(msg, matches)
 			data[tostring(msg.to.id)]['settings']['set_photo'] = 'waiting'
 			save_data(_config.moderation.data, data)
 			savelog(msg.to.id, name_log.." ["..msg.from.id.."] started setting new SuperGroup photo")
-			return 'حالا لطفا عکس جدید سوپرگروه را ارسال نمایید'
+			return 'عکس جدید گروه را بفرستید'
 		end
 
 		if matches[1] == 'clean' then
