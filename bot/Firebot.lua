@@ -446,10 +446,8 @@ function create_config( )
 🎈!file 
 تبدیل به فایل 
 
-🎈!banner
-ساخت بنر
 
-🔥Channel:@MonsterTGbot🔥
+🔥Channel:@team_monster🔥
 ]],
   }
   serialize_to_file(config, './data/config.lua')
